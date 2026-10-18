@@ -10,7 +10,7 @@ I’m Tien-Dat Do. Rather than define myself with a list of labels, I want to in
 
 I’m a student in the Faculty of Information Technology (FIT) at the University of Science, VNU HCMC. I’m especially interested in Theoretical Computer Science, Combinatorics, Optimization, Machine Learning, and Quantum Computing.
 
-I’m shaped by the things I study, the people I meet, and the work I choose to do. Writing on this blog helps me think clearly, revisit my ideas, and notice how they change.
+I’m shaped by the things I study, the people I meet, and the work I choose to do.
 
 ## Where did I come from?
 
@@ -18,4 +18,4 @@ I’m from Quy Nhon :)), a beautiful coastal city in Binh Dinh Province, Vietnam
 
 ## Where am I going?
 
-I don’t have a complete map. I want to keep learning and share what I learn along the way. This blog is a simple place for my knowledge, notes, and lessons from the things I study and try.
+I don’t have a complete map. I want to keep learning and share what I learn along the way.
