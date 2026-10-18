@@ -1,0 +1,21 @@
+{{ define "main" }}
+<main class="main">
+  <article class="article">
+    <div class="eyebrow">{{ if eq .Language.Lang "vi" }}Một chút giới thiệu{{ else }}A little introduction{{ end }}
+    </div>
+    <div class="about-card">
+      <div class="avatar">{{ if fileExists "static/images/profile.jpg" }}<img src="{{ "images/profile.jpg" | relURL }}"
+          alt="{{ if eq .Language.Lang "vi" }}Ảnh đại diện của Đỗ Tiến Đạt{{ else }}Tien-Dat Do profile picture{{ end
+          }}">{{ else }}TD{{ end }}</div>
+      <div>
+        <h2>{{ if eq .Language.Lang "vi" }}Xin chào, mình là Đỗ Tiến Đạt.{{ else }}Hi, I’m Tien-Dat Do.{{ end }}</h2>
+        <p>{{ if eq .Language.Lang "vi" }}Sinh viên Khoa Công nghệ Thông tin (FIT) tại Trường Đại học Khoa học Tự nhiên,
+          ĐHQG-HCM, quan tâm đến theoretical computer science, combinatorics, optimization, machine learning và quantum computing.{{
+          else }}A FIT student at VNU-HCM University of Science, interested in theoretical computer science,
+          combinatorics, optimization, machine learning, and quantum computing.{{ end }}</p>
+      </div>
+    </div>
+    {{ .Content }}
+  </article>
+</main>
+{{ end }}

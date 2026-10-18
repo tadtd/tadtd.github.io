@@ -1,0 +1,28 @@
+baseURL = "https://tadtd.github.io/"
+title = "tadtd blog"
+locale = "en-US"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+publishDir = "public"
+
+[pagination]
+  pagerSize = 10
+
+[languages]
+  [languages.en]
+    label = "English"
+    locale = "en-US"
+    weight = 1
+    contentDir = "content/en"
+  [languages.vi]
+    label = "Tiếng Việt"
+    locale = "vi-VN"
+    weight = 2
+    contentDir = "content/vi"
+
+[params]
+  author = "tadtd"
+  description = "Notes on learning, building, and thoughtful ideas."
+
+[markup.goldmark.renderer]
+  unsafe = true

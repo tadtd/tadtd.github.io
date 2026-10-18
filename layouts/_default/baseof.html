@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="{{ .Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+  <title>{{ if .IsHome }}{{ .Site.Title }} — Notes on learning and building{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+  <link rel="stylesheet" href="{{ "css/blog.css" | relURL }}">
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body>
+  {{ partial "header.html" . }}
+  {{ block "main" . }}{{ end }}
+  {{ partial "footer.html" . }}
+</body>
+</html>
