@@ -10,7 +10,7 @@ Mình là Đỗ Tiến Đạt. Thay vì giới thiệu bản thân bằng một 
 
 Hiện tại, mình là sinh viên Khoa Công nghệ Thông tin (FIT), Trường Đại học Khoa học Tự nhiên, ĐHQG TPHCM. Mình đặc biệt quan tâm đến theoretical computer science, combinatorics, optimization, machine learning và quantum computing.
 
-Con người mình được hình thành từ những gì đã học, những người đã gặp và những việc mình chọn làm. Viết blog là một cách để mình suy nghĩ thành lời, nhìn lại niềm tin và nhận ra chúng thay đổi ra sao.
+Con người mình được hình thành từ những gì đã học, những người đã gặp và những việc mình chọn làm. 
 
 ## Mình đến từ đâu?
 
@@ -18,4 +18,4 @@ Mình đến từ Quy Nhơn :)), một thành phố biển ở tỉnh Bình Đ�
 
 ## Mình đang đi về đâu?
 
-Mình chưa có một tấm bản đồ hoàn chỉnh. Mình muốn tiếp tục học hỏi và chia sẻ những điều mình khám phá trên đường đi. Blog này đơn giản là nơi mình ghi lại kiến thức, ghi chú và những bài học từ những điều mình học và trải nghiệm.
+Mình chưa có một tấm bản đồ hoàn chỉnh. Mình muốn tiếp tục học hỏi và chia sẻ những điều mình khám phá trên đường đi.
